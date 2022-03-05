@@ -1,7 +1,8 @@
 select 
 	company as valuestocks
 	
-from(
+from
+(
 	select 
 		company,
 		sum(CASE 
@@ -20,7 +21,7 @@ from(
 	) as difference
 
 	group by company
-) as sss
+) as required_table
 
 where continuous >1;
 
