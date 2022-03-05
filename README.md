@@ -1,5 +1,7 @@
 # Week2Test
 
+**`A new file called *data_dividend_2.sql* has been added. It is used to insert data into the table manually instead of the file. Any one of *data_dividend_2.sql* or *Data_Dividend.sql* can be used for this task.`**
+
 I have creaded three PostgreSQL query files for creating a table in the database, loading data from the txt file and obtaining the required output.
 
 - The ***`CreateTable_Dividend.sql`*** file contains queries to creade a new empty table **`dividend`** in the database, containing two rows (company and fiscal_year).
